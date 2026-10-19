@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Это Ханты-Мансийск, город мамонтов</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#ece4d3;--card:#f6f0e3;--ink:#26332f;--mut:#65705f;--acc:#b5652a;--grn:#2f5d50;--line:#d3c7ae;--riv:#a9c3c9;--land:#e3d9c0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c2421;--card:#25302c;--ink:#e8e2d2;--mut:#a3ad9f;--acc:#e0935a;--grn:#7fb5a3;--line:#3a4741;--riv:#2f4a52;--land:#2b3732}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 "Source Sans 3",Georgia,sans-serif}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.2;margin:0}
+main{max-width:980px;margin:auto;padding:0 20px 60px}
+.hero{padding:70px 0 30px;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(2rem,6vw,3.6rem);color:var(--grn)}
+.hero p{color:var(--mut);max-width:560px}
+section{padding:42px 0 6px}
+h2{font-size:1.8rem;margin-bottom:14px}
+h3{font-size:1.2rem;margin:22px 0 10px}
+button,summary{cursor:pointer}
+.btn{background:var(--grn);color:var(--bg);border:0;padding:10px 22px;border-radius:24px;font:600 1rem inherit;font-family:inherit}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.card b{font-family:Fraunces,Georgia,serif;font-size:1.05rem}
+.card p{margin:4px 0;color:var(--mut);font-size:.95rem}
+.card a,.src a{color:var(--acc);font-weight:600;text-decoration:none}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.tabs button{background:none;border:1px solid var(--grn);color:var(--grn);padding:6px 16px;border-radius:20px;font:600 .95rem inherit;font-family:inherit}
+.tabs button.on{background:var(--grn);color:var(--bg)}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:8px 0;padding:0 16px}
+summary{padding:12px 0;font-weight:600;list-style:none;display:flex;justify-content:space-between;align-items:center}
+summary::after{content:"▾";transition:.2s;color:var(--acc)}
+details[open]>summary::after{transform:rotate(180deg)}
+details .in{padding-bottom:12px}
+.item{padding:8px 0;border-top:1px dashed var(--line)}
+.item small{color:var(--mut);display:block}
+#ev{display:none;margin-top:14px}
+.leg{font-size:.88rem;color:var(--mut);margin:6px 0}
+ol{padding-left:22px}
+.note{font-size:.88rem;color:var(--mut)}
+.mapw{position:relative}.mapw svg{width:100%;height:auto;border-radius:12px;border:1px solid var(--line);display:block;cursor:grab;touch-action:none;background:var(--land)}.mk{cursor:pointer}.rt{animation:dash 1.6s linear infinite}@keyframes dash{to{stroke-dashoffset:-24}}.ctl{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:4px}.ctl button{width:34px;height:34px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:1.1rem}.tip{position:absolute;display:none;transform:translate(-50%,-130%);background:var(--ink);color:var(--bg);padding:6px 10px;border-radius:8px;font-size:.9rem;white-space:nowrap;pointer-events:none;z-index:2}.tip.pin{pointer-events:auto}.tip a{color:var(--bg);text-decoration:underline}@media (prefers-reduced-motion:reduce){.rt{animation:none}}
+.bg{position:fixed;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none;color:var(--grn);opacity:.22}
+</style></head><body><svg class="bg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><g id="mm"><path vector-effect="non-scaling-stroke" d="M62 120C70 70 120 50 160 62C190 38 250 36 292 62C342 76 366 122 356 166C353 186 351 206 348 226L322 226C322 206 318 194 312 188C290 194 272 192 255 188L252 226L226 226C226 206 222 194 214 190C192 192 172 178 152 172C142 190 138 210 128 228C120 242 100 246 92 234C84 222 100 216 102 206C105 190 100 176 95 162C80 152 64 142 62 120Z"/><path vector-effect="non-scaling-stroke" d="M84 150C56 170 36 154 28 122C26 110 36 108 40 116"/><path vector-effect="non-scaling-stroke" d="M122 98C140 104 140 130 124 138M200 70C230 56 262 60 285 78M150 90C170 84 180 90 190 100M300 120C320 135 322 160 316 178"/><circle cx="96" cy="104" r="2.5"/></g></defs><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><use href="#mm" transform="translate(640 420) scale(1.4)"/><use href="#mm" transform="translate(790 40) scale(.7)"/><use href="#mm" transform="translate(400 540) scale(-.6 .6)"/></g></svg><main>
+<div class="hero"><h1>Это Ханты-Мансийск, город мамонтов</h1><p>Путеводитель по столице Югры: история, где поспать и поесть, что посмотреть и маршрут на три дня.</p></div>
+
+<section><h2>История Ханты-Мансийска</h2>
+<p>Город стоит у слияния Оби и Иртыша. Здесь веками жили ханты и манси, позже появилось русское поселение Самарово, а в XX веке на этом месте вырос административный центр Югры. Сегодня это город спорта, музеев и нефтяной истории, а символом стали скульптуры мамонтов в Археопарке.</p>
+<button class="btn" id="more">Подробнее</button>
+<div id="ev"></div></section>
+
+<section><h2>Где остановиться</h2>
+<div class="tabs" id="htabs"></div><div class="grid" id="hotels"></div>
+<p class="note">Отели подобраны по подборкам Яндекс Путешествий и других сервисов бронирования; категория «премиум / средний / дешёвый» ориентировочная.</p></section>
+
+<section><h2>Рестораны</h2><div class="grid" id="rest"></div></section>
+<section><h2>Кафе, кофейни и завтраки</h2><div class="grid" id="cafe"></div></section>
+<section><h2>Каталог мест</h2><div id="cat"></div>
+<p class="src note" id="src"></p></section>
+
+<section><h2>Рекомендации по маршруту на 3 дня</h2>
+<p class="note">Карты интерактивные: колесо мыши или кнопки + и − меняют масштаб, карту можно перетаскивать. Наведите курсор на цифру, чтобы увидеть название, нажмите — появится ссылка на Яндекс Карты. Схема условная: настоящее расположение смотрите по ссылкам.</p><div id="days"></div></section>
+</main>
+<script>
+const Y=n=>"https://yandex.ru/maps/?text="+encodeURIComponent(n+" Ханты-Мансийск");
+const $=id=>document.getElementById(id);
+const EV=[["1582 или 1637","Самарово: село у слияния рек","<p>У истока этой истории стоит не Ханты-Мансийск, а старое село Самарово на высоком берегу Иртыша. По одной версии, оно названо по имени остяцкого (хантыйского) князя Самара. Русское поселение появилось на сибирском тракте как ямская станция: первыми жителями стали около 50 ямщиков с семьями, а за ними потянулись и другие переселенцы.</p><p>Долго годом рождения считали 1637-й. Затем тюменские историки предложили отсчитывать возраст с 1582 года, когда поселение впервые упомянуто в письменных источниках. Спор о «настоящей» дате до сих пор идёт, поэтому на сайте указаны обе. Со временем Самарово стало центром торговли и ремёсел, а сейчас это южная историческая часть города.</p>"],
+["1930","Округ, которому нужна столица","<p>В 1930 году был образован Остяко-Вогульский национальный округ. Названия народов в нём были тогдашними русскими: хантов называли остяками, а манси — вогулами. Округу требовался административный центр, и решили не расширять старое село, а построить новый город с нуля в тайге, в урочище Большой Черемушник.</p><p>В том же году в Самарово построили рыбоконсервный комбинат: река кормила здешние места задолго до нефти.</p>"],
+["1931–1936","Остяко-Вогульск: город, прорубленный в лесу","<p>В 1931 году началось строительство нового посёлка примерно в пяти километрах от Самарово. Первые улицы Коминтерна, Ленина и Комсомольская прорубали сквозь тайгу в 1930-х, и сегодня именно по ним удобно идти от отеля к кафе и музеям.</p><p>В 1935 году (по другим данным, в 1936-м) Остяко-Вогульск получил статус посёлка городского типа. Так на окраине старой Сибири появилась молодая столица.</p>"],
+["1940","Новое имя и первый аэропорт","<p>В 1940 году посёлок переименовали в Ханты-Мансийск: новое название отражало не устаревшие слова «остяки» и «вогулы», а самоназвания коренных народов. В том же году рядом с Остяко-Вогульском в Самарово открыли аэропорт.</p><p>В 1956 году он стал называться аэропортом «Ханты-Мансийск». Именно сюда вы и прилетаете в первый день маршрута.</p>"],
+["1950","Два начала становятся одним городом","<p>В октябре 1950 года посёлок и село Самарово объединили, и образовался город Ханты-Мансийск. Новая столица и старое село стали частями целого: Самарово превратилось в южную часть города, а теперь это любимая зона для прогулок, мостов и видов на реку.</p>"],
+["1993","Югра становится регионом","<p>В 1993 году Ханты-Мансийский округ получил статус полноправного субъекта Российской Федерации. Город, в котором сегодня живёт около 110 тысяч человек (данные на 2023 год), стал столицей Югры.</p><p>Крупных промышленных предприятий здесь нет, зато вокруг растёт тайга. Местные кедры называют «лёгкими» города.</p>"],
+["Сегодня","Город мамонтов и биатлона","<p>Современный Ханты-Мансийск вырос на встрече старого и нового. В тени Самаровского останца появились скульптуры мамонтов, носорогов и других ледниковых гигантов. Открытый Археопарк стал визитной карточкой города.</p><p>Рядом музеи, посвящённые Югре, и спортивные арены, где проходят соревнования по зимним видам спорта. Так история превратилась в маршрут: от старого Самарово до мамонтов у подножия останца.</p>"]];
+$("ev").innerHTML=EV.map(e=>`<details><summary>${e[0]} — ${e[1]}</summary><div class="in">${e[2]}</div></details>`).join("");
+$("more").onclick=()=>{const e=$("ev");const o=e.style.display=="block";e.style.display=o?"none":"block";$("more").textContent=o?"Подробнее":"Скрыть"};
+const H={"Премиум":[["Отель Югра","ул. Комсомольская, 32","Центр города, один из лучших по отзывам."],["СоветникЪ","Центр","Высокая оценка в подборке Яндекс Путешествий."]],
+"Средний":[["Югра-Классик","ул. Мира, 22","В центре, 28–30 номеров, парковка. От ~3 250 ₽ за ночь."],["Гостиница Олимпийская","Центр","Крупнейшая гостиница города."],["Мини-гостиница Гамма","Центр","Номера от стандарта до люкса."]],
+"Дешёвый":[["Гостевой дом Восток","~2 км до центра","Недорогой вариант."],["Отель Сокол","~5 км до центра","Недорогой вариант вне центра."],["Гостиница На семи холмах","Центр","Хорошие отзывы гостей."]]};
+$("htabs").innerHTML=Object.keys(H).map((k,i)=>`<button class="${i?"":"on"}" data-k="${k}">${k}</button>`).join("");
+function hot(k){$("hotels").innerHTML=H[k].map(h=>`<div class="card"><b>${h[0]}</b><p>${h[1]}</p><p>${h[2]}</p><a href="${Y(h[0])}" target="_blank" rel="noopener">Яндекс Карты →</a></div>`).join("");document.querySelectorAll("#htabs button").forEach(b=>b.classList.toggle("on",b.dataset.k==k))}
+$("htabs").onclick=e=>{if(e.target.dataset.k)hot(e.target.dataset.k)};hot("Премиум");
+const R=[["Кинза","Грузинская и авторская кухня · средний/выше среднего","ул. Дзержинского, 5А"],["Диван-Сарай","Восточная и европейская · средний","ул. Комсомольская, 31"],["Миснэ","Русская и европейская · высокий","ул. Гагарина, 54"],["Старый двор","Для ужина и торжественных встреч","ул. Дзержинского, 13"],["Посейдон","Японская и европейская, морепродукты",""],["Molly O’Brian","Стейки, барбекю","ул. Зеленодольская, 4"],["Караван","Восточная и европейская",""]];
+const C=[["Traveler’s Coffee","Завтрак, кофе, десерты","ул. Ленина, 39"],["Шоколадница","Кофе, десерты, лёгкие блюда","ул. Энгельса, 16"],["СССР","Домашняя кухня, бюджетный обед","ул. Дзержинского, 13–17"],["Гуд Фуд","Блины и быстрые перекусы","ул. Дзержинского, 7"],["Булошник","Выпечка, кофе","ул. Шевченко, 8"],["Munken’s Coffee","Кофе и десерты","ул. Лопарева, 4"],["Oh, my bakery","Пекарня, кофе",""],["Белкины пироги","Пироги с собой","ул. Гагарина, 293"]];
+const cards=a=>a.map(r=>`<div class="card"><b>${r[0]}</b><p>${r[1]}</p>${r[2]?`<p>${r[2]}</p>`:""}<a href="${Y(r[0])}" target="_blank" rel="noopener">Яндекс Карты →</a></div>`).join("");
+$("rest").innerHTML=cards(R);$("cafe").innerHTML=cards(C);
+const CAT=[["Пицца, суши и быстрый перекус",[["IL Патио","Итальянская кухня, паста, пицца","ул. Коминтерна, 30"],["Додо Пицца","Пицца, быстрый обед","ул. Чехова, 27"],["Pizza Hans","Пицца, бургеры","ул. Энгельса, 16"],["FARFOR","Суши, роллы, пицца, доставка","ул. Заводская, 26"],["Inши суши","Суши и роллы","ул. Комсомольская, 56"],["Суши-Маркет","Суши, быстрый заказ",""],["SushiAlex","Суши, азиатская кухня",""],["Бургер Бум","Бургеры","ул. Заводская, 24"],["Гуд Фуд","Блины, быстрые блюда","ул. Лопарева, 6"]]],
+["Национальная кухня и необычные варианты",[["Стамбул","Турецкая кухня, мангал",""],["Хурма","Грузинская кухня",""],["Хинкали желали?","Хинкали и грузинские блюда",""],["Мангаль House","Шашлык и мангал",""],["Восточная кухня","Сытные блюда",""],["Кавсар","Вариант для обеда",""],["Честер Паб","Паб, барбекю",""],["Harat’s Pub","Паб, вечерние мероприятия",""],["Пельменная","Простой русский обед",""],["Food Park","Перекус, разные форматы",""]]],
+["Культурные места и достопримечательности",[["Археопарк","Мамонты и шерстистые носороги у подножия Самаровского останца. Обязательно к посещению.",""],["Музей Природы и Человека","Природа Севера, археология, история Югры","ул. Мира, 11"],["Торум Маа","Этнографический музей под открытым небом о ханты и манси","ул. Собянина, 20"],["Музей геологии, нефти и газа","Минералы и история нефтяных месторождений","ул. Чехова, 9"],["Государственный художественный музей","Живопись, графика, иконопись","ул. Мира, 2а"],["Галерея-мастерская Г. С. Райшева","Творчество югорского художника",""],["Дом-музей В. А. Игошева","Мемориальный музей народного художника СССР",""],["Кафедральный собор Воскресения Христова","Архитектура и панорамные виды",""],["Стела «Первооткрывателям земли Югорской»","Символ города, место для фото",""],["Каскад фонтанов «Дорога к храму»","Парковый ансамбль в центре",""]]],
+["Развлечения, активный отдых и экскурсии",[["Археопарк — прогулка к мамонтам","Фотосессия и прогулка, 1–2 часа, вход обычно свободный",""],["Природный парк «Самаровский чугас»","Экотропы и таёжные пейзажи",""],["Центр зимних видов спорта им. Филипенко","Биатлон и лыжи; доступность зависит от расписания",""],["Комплекс «Хвойный Урман»","Лыжи и сноуборд зимой",""],["Экскурсии в «Торум Маа»","Традиции ханты и манси, мастер-классы",""],["Экскурсии к оленеводам","Только по договорённости через местного организатора, не ежедневно",""],["Мост «Красный дракон»","Точка для фото над Иртышом",""],["Мастер-классы по северным ремёслам","Орнаменты и сувениры",""],["Парк имени Бориса Лосева","Спокойная прогулка в центре",""]]]];
+$("cat").innerHTML=CAT.map(c=>`<details><summary>${c[0]}</summary><div class="in">${c[1].map(r=>`<div class="item"><b>${r[0]}</b><small>${r[1]}${r[2]?" · "+r[2]:""}</small><small><a href="${Y(r[0])}" target="_blank" rel="noopener" style="color:var(--acc)">на карте →</a></small></div>`).join("")}</div></details>`).join("");
+$("src").innerHTML='Где искать экскурсии: <a href="https://visit-hm.ru/en" target="_blank" rel="noopener">туристический портал Ханты-Мансийска</a> · <a href="https://experience.tripster.ru/experience/Khanty_Mansiysk/" target="_blank" rel="noopener">экскурсии на Tripster</a>.';
+const P={ap:["Аэропорт",90,320],h:["Отель «Югра-Классик», ул. Мира, 22",300,190],mp:["Музей Природы и Человека",330,160],tc:["Traveler’s Coffee (обед)",270,240],st:["Стела «Первооткрывателям»",400,125],ks:["Каскад «Дорога к храму»",450,175],kz:["Кинза (ужин)",360,225],bl:["Булошник (завтрак)",235,150],ar:["Археопарк",505,95],ch:["Самаровский чугас",570,190],ds:["Диван-Сарай (обед)",430,255],kd:["Мост «Красный дракон»",585,300],tm:["Торум Маа",150,115],sv:["СССР (обед)",195,180],mg:["Музей геологии, нефти и газа",265,105],hm:["Художественный музей",350,95],pl:["Парк имени Бориса Лосева",215,235],ms:["Миснэ (ужин)",330,285]};
+const E=new Set(["tc","kz","bl","ds","sv","ms"]);
+const D=[["1 день: прилёт, центр и вечер",["ap","h","mp","tc","st","ks","kz","h"]],["2 день: мамонты, природа и мост",["h","bl","ar","ch","ds","kd","h"]],["3 день: музеи Югры",["h","tm","sv","mg","hm","pl","ms","h"]]];
+const mkc=(k,t,n)=>{const p=P[k];return`<g class="mk" data-k="${k}" data-t="${t}"><circle cx="${p[1]}" cy="${p[2]}" r="14" fill="${E.has(k)?"#c9772f":"#2f5d50"}" stroke="#fff" stroke-width="2"/><text x="${p[1]}" y="${p[2]+5}" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">${n}</text></g>`};
+const sq=(k,ch,c)=>{const p=P[k];return`<g class="mk" data-k="${k}" data-t="${p[0]}"><rect x="${p[1]-15}" y="${p[2]-15}" width="30" height="30" rx="8" fill="${c}" stroke="#fff" stroke-width="2"/><text x="${p[1]}" y="${p[2]+5}" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">${ch}</text></g>`};
+$("days").innerHTML=D.map((d,i)=>{let n=0;const ks=d[1];const path=ks.map(k=>P[k][1]+","+P[k][2]).join(" ");
+let mk="";const items=[];ks.forEach(k=>{if(k=="h"||k=="ap")return;n++;mk+=mkc(k,n+". "+P[k][0],n);items.push(`<li><a href="${Y(P[k][0].replace(/ \(.*\)/,""))}" target="_blank" rel="noopener" style="color:var(--acc)">${P[k][0]}</a></li>`)});
+mk=(ks.includes("ap")?sq("ap","✈","#555"):"")+sq("h","О","#8a3b1e")+mk;
+return`<h3>${d[0]}</h3><div class="mapw"><svg viewBox="0 0 640 380" role="img" aria-label="Схема маршрута, ${d[0]}"><rect width="640" height="380" style="fill:var(--land)"/><path d="M0 345 C140 300 220 360 330 335 S520 250 560 330 S620 360 640 340 V380 H0Z" style="fill:var(--riv)"/><path d="M640 60 C600 120 640 200 600 260 S560 330 640 350 V380 H640Z" style="fill:var(--riv)"/><ellipse cx="560" cy="150" rx="70" ry="55" fill="#7fa58f" opacity=".45"/><text x="20" y="372" font-size="12" style="fill:var(--mut)">р. Иртыш</text><polyline class="rt" points="${path}" fill="none" stroke="#8a3b1e" stroke-width="3" stroke-dasharray="3 9" stroke-linecap="round" stroke-linejoin="round"/>${mk}</svg><div class="ctl"><button data-z="1" aria-label="Приблизить">+</button><button data-z="-1" aria-label="Отдалить">−</button><button data-z="0" aria-label="Сбросить">⟲</button></div><div class="tip"></div></div>
+<p class="leg">🟢 достопримечательность · 🟠 где поесть · О отель${i==0?" · ✈ аэропорт":""}. Начало и конец: ${i==0?"аэропорт → отель, вечером снова отель":"отель в центре"}.</p><p><b>Места за день:</b></p><ol>${items.join("")}</ol>`}).join("");
+document.querySelectorAll(".mapw").forEach(w=>{const s=w.querySelector("svg"),tip=w.querySelector(".tip");let v=[0,0,640,380],drag=null,moved=0,pin=null;
+const set=()=>s.setAttribute("viewBox",v.join(" "));
+const hide=()=>{tip.style.display="none"};
+const clamp=()=>{v[0]=Math.max(0,Math.min(640-v[2],v[0]));v[1]=Math.max(0,Math.min(380-v[3],v[1]))};
+const zoom=(f,cx,cy)=>{const nw=Math.min(640,Math.max(120,v[2]*f)),r=nw/v[2];cx=cx??v[0]+v[2]/2;cy=cy??v[1]+v[3]/2;v=[cx-(cx-v[0])*r,cy-(cy-v[1])*r,nw,v[3]*r];clamp();set();pin=null;hide()};
+const pt=e=>{const r=s.getBoundingClientRect();return[v[0]+(e.clientX-r.left)/r.width*v[2],v[1]+(e.clientY-r.top)/r.height*v[3]]};
+const show=(g,pinned)=>{const b=g.getBoundingClientRect(),wb=w.getBoundingClientRect();tip.style.left=b.left-wb.left+b.width/2+"px";tip.style.top=b.top-wb.top+"px";tip.innerHTML=g.dataset.t+(pinned?`<br><a href="${Y(P[g.dataset.k][0].replace(/ \(.*\)/,""))}" target="_blank" rel="noopener">Открыть в Яндекс Картах →</a>`:"");tip.classList.toggle("pin",pinned);tip.style.display="block"};
+s.addEventListener("wheel",e=>{e.preventDefault();const[p,q]=pt(e);zoom(e.deltaY<0?.8:1.25,p,q)},{passive:false});
+s.addEventListener("pointerdown",e=>{drag={x:e.clientX,y:e.clientY};moved=0});
+window.addEventListener("pointermove",e=>{if(!drag)return;const r=s.getBoundingClientRect(),dx=e.clientX-drag.x,dy=e.clientY-drag.y;moved+=Math.abs(dx)+Math.abs(dy);v[0]-=dx/r.width*v[2];v[1]-=dy/r.height*v[3];drag.x=e.clientX;drag.y=e.clientY;clamp();set();if(moved>5){pin=null;hide()}});
+window.addEventListener("pointerup",()=>{drag=null});
+s.addEventListener("mouseover",e=>{const g=e.target.closest(".mk");if(g&&!pin)show(g,false)});
+s.addEventListener("mouseout",()=>{if(!pin)hide()});
+s.addEventListener("click",e=>{if(moved>5)return;const g=e.target.closest(".mk");if(g){pin=g;show(g,true)}else{pin=null;hide()}});
+w.querySelectorAll(".ctl button").forEach(b=>b.onclick=()=>{const z=+b.dataset.z;if(z)zoom(z>0?.7:1.4);else{v=[0,0,640,380];set();pin=null;hide()}});
+});
+</script></body></html>
